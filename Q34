@@ -1,0 +1,11 @@
+import math
+total = 0
+for i in range(3, 2540160):
+    Sum = 0
+    x = str(i)
+    for g in x:
+        Sum += math.factorial(int(g))
+    if Sum == i:
+        total += i
+
+print(total)

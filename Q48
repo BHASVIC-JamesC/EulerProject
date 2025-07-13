@@ -1,0 +1,6 @@
+import math
+su = 0
+for i in range(1,1001):
+    su += i**i
+
+print(str(su))

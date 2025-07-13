@@ -1,0 +1,10 @@
+import inflect
+inflector = inflect.engine()
+sums = 0
+for i in range(1,1001):
+    word = inflector.number_to_words(i).replace(" ","").replace("-","")
+    count = 0
+    for i in word:
+        count +=1
+    sums += count
+print(sums)

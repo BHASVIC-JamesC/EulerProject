@@ -1,0 +1,11 @@
+import math
+
+unique_values = set()
+
+for a in range(2, 101):
+    for b in range(2, 101):
+        ans = a**b
+        unique_values.add(ans)
+
+print(len(unique_values))
+

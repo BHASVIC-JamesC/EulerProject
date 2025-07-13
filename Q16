@@ -1,0 +1,8 @@
+# Calculate 2^1000
+result = 2 ** 1000
+sums = 0
+# Convert the result to a string to print each digit
+for digit in str(result):
+    sums += int(digit)
+
+print(sums)
