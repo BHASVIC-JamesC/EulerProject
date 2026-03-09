@@ -2,26 +2,25 @@
 #include <stdbool.h>
 
 int main(void) {
-    unsigned long long int x = 1111111111111111111;
+    unsigned long long int start = 316227760;
     bool state = false;
-
     while(!state) {
-        
+        unsigned long long x = start*start;
 
         // Check if last digit is 0
         if (x % 10 != 0) {
-            x += 10;
+            start+=10;
             continue;
         }
 
         unsigned long long int temp = x;
         int count = 9;
         bool valid = true;
-
+        temp/=10;
         // Check every second digit from the right
         while (count >= 1) {
             temp /= 10; // skip one digit
-            int digit = temp % 10;
+            unsigned long long int digit = temp % 10;
             if (digit != count) {
                 valid = false;
                 break;
@@ -33,10 +32,10 @@ int main(void) {
         if (valid) {
             state = true;
         } else {
-            x ++;
+            start+=10;
         }
     }
 
-    printf("x: %llu\n", x);
+    printf("start: %llu\n",start);
     return 0;
 }

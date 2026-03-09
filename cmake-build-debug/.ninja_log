@@ -1,3 +1,8 @@
 # ninja log v6
-272	554	7630597897660758	eulerproject.exe	175f2eb96df00369
-3	252	7652953723658088	build.ninja	bb569b7f9d03bdac
+203	405	7901261003678887	eulerproject.exe	9a4a471ef8658623
+2	217	7899967870984409	CMakeFiles/eulerproject.dir/Q85.c.obj	487930d1eb4a6bb5
+3	278	7929020463494996	build.ninja	a6742a4eee83af01
+2	202	7901261001669390	CMakeFiles/eulerproject.dir/angryCows.c.obj	871fce2975cfa6c3
+1	304	7929020463494996	build.ninja	a6742a4eee83af01
+1	126	7929020463935886	CMakeFiles/eulerproject.dir/USACO_gold.c.obj	e88f4aad8ef47000
+127	292	7929020465194885	eulerproject.exe	ee6a5bfc385e0180

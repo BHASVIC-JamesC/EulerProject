@@ -6,8 +6,6 @@ set(CMAKE_C_STANDARD 99)
 add_executable(eulerproject
 
 
-
-
-
-        Q206.c
+        USACO_gold.c
+        USACO_plat_C.c
 )

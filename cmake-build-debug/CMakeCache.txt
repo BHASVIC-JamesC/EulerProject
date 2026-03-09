@@ -210,12 +210,6 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//No help, variable specified on the command line.
-Python3_EXECUTABLE:UNINITIALIZED=C:/Users/james/Downloads/comp sci work/eulerproject/venv/Scripts/python.exe
-
-//No help, variable specified on the command line.
-Python_EXECUTABLE:UNINITIALIZED=C:/Users/james/Downloads/comp sci work/eulerproject/venv/Scripts/python.exe
-
 //Value Computed by CMake
 eulerproject_BINARY_DIR:STATIC=C:/Users/james/Downloads/comp sci work/eulerproject/cmake-build-debug
 
