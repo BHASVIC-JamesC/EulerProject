@@ -68,49 +68,33 @@ include CMakeFiles/eulerproject.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/eulerproject.dir/flags.make
 
-CMakeFiles/eulerproject.dir/USACO_gold.c.obj: CMakeFiles/eulerproject.dir/flags.make
-CMakeFiles/eulerproject.dir/USACO_gold.c.obj: C:/Users/james/Downloads/comp\ sci\ work/eulerproject/USACO_gold.c
-CMakeFiles/eulerproject.dir/USACO_gold.c.obj: CMakeFiles/eulerproject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\james\Downloads\comp sci work\eulerproject\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/eulerproject.dir/USACO_gold.c.obj"
-	C:\Users\james\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/eulerproject.dir/USACO_gold.c.obj -MF CMakeFiles\eulerproject.dir\USACO_gold.c.obj.d -o CMakeFiles\eulerproject.dir\USACO_gold.c.obj -c "C:\Users\james\Downloads\comp sci work\eulerproject\USACO_gold.c"
+CMakeFiles/eulerproject.dir/Q267.c.obj: CMakeFiles/eulerproject.dir/flags.make
+CMakeFiles/eulerproject.dir/Q267.c.obj: C:/Users/james/Downloads/comp\ sci\ work/eulerproject/Q267.c
+CMakeFiles/eulerproject.dir/Q267.c.obj: CMakeFiles/eulerproject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\james\Downloads\comp sci work\eulerproject\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/eulerproject.dir/Q267.c.obj"
+	C:\Users\james\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/eulerproject.dir/Q267.c.obj -MF CMakeFiles\eulerproject.dir\Q267.c.obj.d -o CMakeFiles\eulerproject.dir\Q267.c.obj -c "C:\Users\james\Downloads\comp sci work\eulerproject\Q267.c"
 
-CMakeFiles/eulerproject.dir/USACO_gold.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/eulerproject.dir/USACO_gold.c.i"
-	C:\Users\james\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\james\Downloads\comp sci work\eulerproject\USACO_gold.c" > CMakeFiles\eulerproject.dir\USACO_gold.c.i
+CMakeFiles/eulerproject.dir/Q267.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/eulerproject.dir/Q267.c.i"
+	C:\Users\james\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\james\Downloads\comp sci work\eulerproject\Q267.c" > CMakeFiles\eulerproject.dir\Q267.c.i
 
-CMakeFiles/eulerproject.dir/USACO_gold.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/eulerproject.dir/USACO_gold.c.s"
-	C:\Users\james\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\james\Downloads\comp sci work\eulerproject\USACO_gold.c" -o CMakeFiles\eulerproject.dir\USACO_gold.c.s
-
-CMakeFiles/eulerproject.dir/USACO_plat_C.c.obj: CMakeFiles/eulerproject.dir/flags.make
-CMakeFiles/eulerproject.dir/USACO_plat_C.c.obj: C:/Users/james/Downloads/comp\ sci\ work/eulerproject/USACO_plat_C.c
-CMakeFiles/eulerproject.dir/USACO_plat_C.c.obj: CMakeFiles/eulerproject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\james\Downloads\comp sci work\eulerproject\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/eulerproject.dir/USACO_plat_C.c.obj"
-	C:\Users\james\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/eulerproject.dir/USACO_plat_C.c.obj -MF CMakeFiles\eulerproject.dir\USACO_plat_C.c.obj.d -o CMakeFiles\eulerproject.dir\USACO_plat_C.c.obj -c "C:\Users\james\Downloads\comp sci work\eulerproject\USACO_plat_C.c"
-
-CMakeFiles/eulerproject.dir/USACO_plat_C.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/eulerproject.dir/USACO_plat_C.c.i"
-	C:\Users\james\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\james\Downloads\comp sci work\eulerproject\USACO_plat_C.c" > CMakeFiles\eulerproject.dir\USACO_plat_C.c.i
-
-CMakeFiles/eulerproject.dir/USACO_plat_C.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/eulerproject.dir/USACO_plat_C.c.s"
-	C:\Users\james\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\james\Downloads\comp sci work\eulerproject\USACO_plat_C.c" -o CMakeFiles\eulerproject.dir\USACO_plat_C.c.s
+CMakeFiles/eulerproject.dir/Q267.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/eulerproject.dir/Q267.c.s"
+	C:\Users\james\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\james\Downloads\comp sci work\eulerproject\Q267.c" -o CMakeFiles\eulerproject.dir\Q267.c.s
 
 # Object files for target eulerproject
 eulerproject_OBJECTS = \
-"CMakeFiles/eulerproject.dir/USACO_gold.c.obj" \
-"CMakeFiles/eulerproject.dir/USACO_plat_C.c.obj"
+"CMakeFiles/eulerproject.dir/Q267.c.obj"
 
 # External object files for target eulerproject
 eulerproject_EXTERNAL_OBJECTS =
 
-eulerproject.exe: CMakeFiles/eulerproject.dir/USACO_gold.c.obj
-eulerproject.exe: CMakeFiles/eulerproject.dir/USACO_plat_C.c.obj
+eulerproject.exe: CMakeFiles/eulerproject.dir/Q267.c.obj
 eulerproject.exe: CMakeFiles/eulerproject.dir/build.make
 eulerproject.exe: CMakeFiles/eulerproject.dir/linkLibs.rsp
 eulerproject.exe: CMakeFiles/eulerproject.dir/objects1.rsp
 eulerproject.exe: CMakeFiles/eulerproject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\james\Downloads\comp sci work\eulerproject\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable eulerproject.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\james\Downloads\comp sci work\eulerproject\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable eulerproject.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\eulerproject.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -5,7 +5,5 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(eulerproject
 
-
-        USACO_gold.c
-        USACO_plat_C.c
+        14-elementary-arithmetic/Q1.c
 )

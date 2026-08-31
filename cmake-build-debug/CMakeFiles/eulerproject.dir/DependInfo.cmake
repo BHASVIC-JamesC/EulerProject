@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/james/Downloads/comp sci work/eulerproject/USACO_gold.c" "CMakeFiles/eulerproject.dir/USACO_gold.c.obj" "gcc" "CMakeFiles/eulerproject.dir/USACO_gold.c.obj.d"
-  "C:/Users/james/Downloads/comp sci work/eulerproject/USACO_plat_C.c" "CMakeFiles/eulerproject.dir/USACO_plat_C.c.obj" "gcc" "CMakeFiles/eulerproject.dir/USACO_plat_C.c.obj.d"
+  "C:/Users/james/Downloads/comp sci work/eulerproject/Q267.c" "CMakeFiles/eulerproject.dir/Q267.c.obj" "gcc" "CMakeFiles/eulerproject.dir/Q267.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

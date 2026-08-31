@@ -128,53 +128,29 @@ eulerproject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\eulerproject.dir\build.make CMakeFiles/eulerproject.dir/build
 .PHONY : eulerproject/fast
 
-USACO_gold.obj: USACO_gold.c.obj
-.PHONY : USACO_gold.obj
+Q267.obj: Q267.c.obj
+.PHONY : Q267.obj
 
 # target to build an object file
-USACO_gold.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\eulerproject.dir\build.make CMakeFiles/eulerproject.dir/USACO_gold.c.obj
-.PHONY : USACO_gold.c.obj
+Q267.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\eulerproject.dir\build.make CMakeFiles/eulerproject.dir/Q267.c.obj
+.PHONY : Q267.c.obj
 
-USACO_gold.i: USACO_gold.c.i
-.PHONY : USACO_gold.i
-
-# target to preprocess a source file
-USACO_gold.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\eulerproject.dir\build.make CMakeFiles/eulerproject.dir/USACO_gold.c.i
-.PHONY : USACO_gold.c.i
-
-USACO_gold.s: USACO_gold.c.s
-.PHONY : USACO_gold.s
-
-# target to generate assembly for a file
-USACO_gold.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\eulerproject.dir\build.make CMakeFiles/eulerproject.dir/USACO_gold.c.s
-.PHONY : USACO_gold.c.s
-
-USACO_plat_C.obj: USACO_plat_C.c.obj
-.PHONY : USACO_plat_C.obj
-
-# target to build an object file
-USACO_plat_C.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\eulerproject.dir\build.make CMakeFiles/eulerproject.dir/USACO_plat_C.c.obj
-.PHONY : USACO_plat_C.c.obj
-
-USACO_plat_C.i: USACO_plat_C.c.i
-.PHONY : USACO_plat_C.i
+Q267.i: Q267.c.i
+.PHONY : Q267.i
 
 # target to preprocess a source file
-USACO_plat_C.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\eulerproject.dir\build.make CMakeFiles/eulerproject.dir/USACO_plat_C.c.i
-.PHONY : USACO_plat_C.c.i
+Q267.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\eulerproject.dir\build.make CMakeFiles/eulerproject.dir/Q267.c.i
+.PHONY : Q267.c.i
 
-USACO_plat_C.s: USACO_plat_C.c.s
-.PHONY : USACO_plat_C.s
+Q267.s: Q267.c.s
+.PHONY : Q267.s
 
 # target to generate assembly for a file
-USACO_plat_C.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\eulerproject.dir\build.make CMakeFiles/eulerproject.dir/USACO_plat_C.c.s
-.PHONY : USACO_plat_C.c.s
+Q267.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\eulerproject.dir\build.make CMakeFiles/eulerproject.dir/Q267.c.s
+.PHONY : Q267.c.s
 
 # Help Target
 help:
@@ -185,12 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... eulerproject
-	@echo ... USACO_gold.obj
-	@echo ... USACO_gold.i
-	@echo ... USACO_gold.s
-	@echo ... USACO_plat_C.obj
-	@echo ... USACO_plat_C.i
-	@echo ... USACO_plat_C.s
+	@echo ... Q267.obj
+	@echo ... Q267.i
+	@echo ... Q267.s
 .PHONY : help
 
 

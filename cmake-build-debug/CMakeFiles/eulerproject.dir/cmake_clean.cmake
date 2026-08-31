@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/eulerproject.dir/USACO_gold.c.obj"
-  "CMakeFiles/eulerproject.dir/USACO_gold.c.obj.d"
-  "CMakeFiles/eulerproject.dir/USACO_plat_C.c.obj"
-  "CMakeFiles/eulerproject.dir/USACO_plat_C.c.obj.d"
+  "CMakeFiles/eulerproject.dir/Q267.c.obj"
+  "CMakeFiles/eulerproject.dir/Q267.c.obj.d"
   "eulerproject.exe"
   "eulerproject.exe.manifest"
   "eulerproject.pdb"
